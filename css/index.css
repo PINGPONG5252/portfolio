@@ -1,0 +1,91 @@
+body {
+  text-transform: uppercase;
+  background-color: rgb(131, 70, 21);
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  height: 550px;
+  font-size: 60px;
+  font-weight: 600;
+  background-color: rgb(22, 175, 42);
+}
+
+.title div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  height: 300px;
+  margin-top: 120px;
+  text-shadow: 4px 4px 1px rgb(181, 250, 21), 6px 6px rgb(71, 31, 250),
+    9px 9px 3px rgb(6, 46, 11);
+  transition: 0.2s ease-in-out;
+  background-color: rgb(248, 223, 153);
+}
+
+.title div:hover {
+  text-shadow: -3px -3px 1px rgb(32, 252, 252), -5px -5px 1px rgb(141, 20, 255),
+    -9px -9px 3px rgb(6, 46, 11);
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 135px;
+  font-size: 30px;
+  font-family: var(--japan);
+  background: linear-gradient(rgb(17, 124, 31), rgb(7, 51, 13));
+}
+
+.main-box span {
+  width: 250px;
+  height: 35px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px rgb(247, 123, 0), 3px 3px rgb(122, 61, 0);
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 5px 5px green;
+}
+
+.main-box span:last-child {
+  width: 450px;
+}
+
+.nav-box {
+  display: grid;
+  width: 100%;
+  height: 220px;
+  grid-template-columns: repeat(4, 25%);
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: var(--japan);
+}
+
+.nav-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(59, 30, 2);
+  width: 100%;
+  height: 220px;
+  background: linear-gradient(
+    to left,
+    rgb(13, 85, 22) 12.5%,
+    rgb(9, 58, 15) 12.5% 25%,
+    rgb(13, 85, 22) 25% 37.5%,
+    rgb(9, 58, 15) 37.5% 50%,
+    rgb(13, 85, 22) 50% 62.5%,
+    rgb(9, 58, 15) 62.5% 75%,
+    rgb(13, 85, 22) 75% 87.5%,
+    rgb(9, 58, 15) 87.5% 100%
+  );
+  cursor: pointer;
+  border-radius: 10px;
+}

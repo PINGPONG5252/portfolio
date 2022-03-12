@@ -1,0 +1,14 @@
+article {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.blow {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: yellow;
+}
