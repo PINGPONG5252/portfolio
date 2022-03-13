@@ -2,8 +2,9 @@
 
 @import "index.css";
 @import "reset.css";
-@import "sample.css";
+@import "mypr.css";
 @import "variables.css";
+@import "art.css";
 
 body {
   font-family: "Tourney", cursive;
