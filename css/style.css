@@ -5,6 +5,8 @@
 @import "mypr.css";
 @import "variables.css";
 @import "art.css";
+@import "mim.css";
+@import "exclude.css";
 
 body {
   font-family: "Tourney", cursive;

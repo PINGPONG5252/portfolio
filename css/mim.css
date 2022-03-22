@@ -1,0 +1,29 @@
+.to-me_all {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.to-me {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.to-me_own {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.to-me_list {
+  display: flex;
+  width: 100%;
+}
+
+.to-me_span {
+  text-align: center;
+  background-color: rgb(248, 223, 153);
+  font-size: 25px;
+  width: 40%;
+  height: 30px;
+}

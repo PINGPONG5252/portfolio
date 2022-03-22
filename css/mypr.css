@@ -34,6 +34,13 @@
   border: solid 2px rgb(206, 181, 112);
   border-radius: 10px;
   color: rgb(74, 253, 193);
+  background-color: rgb(248, 223, 153);
+  transition: 0.3s ease-in-out;
+}
+
+.head-name_box h2:hover {
+  border: solid 2px rgb(146, 127, 73);
+  background-color: rgb(163, 143, 89);
 }
 
 #first-name {
@@ -53,7 +60,7 @@
 .pr-title {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(5, 20%);
   font-size: 30px;
   margin-top: 10px;
   font-family: var(--japan);
@@ -70,6 +77,10 @@
   border-radius: 10px;
 }
 
+.pr-title div:hover {
+  background: linear-gradient(to left, rgb(8, 51, 14), rgb(3, 22, 6));
+}
+
 .pr-list {
   display: flex;
   flex-direction: column;
@@ -77,6 +88,7 @@
   width: 100%;
   font-size: 30px;
   font-family: var(--japan);
+  margin-bottom: 20px;
 }
 
 .pr-list_box {
@@ -86,6 +98,7 @@
   column-gap: 10px;
   align-items: center;
   justify-items: center;
+  margin-bottom: 10px;
 }
 
 .pr-list_box span {
@@ -96,6 +109,59 @@
   height: 55px;
   margin-top: 10px;
   border-radius: 10px;
+  text-shadow: 2px 2px rgb(247, 123, 0), 3px 3px rgb(122, 61, 0);
+  background-color: rgba(111, 204, 103, 0.884);
+  box-shadow: 5px 5px rgb(1, 107, 1);
+}
+
+.pr-other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--japan);
+  font-size: 25px;
+  width: 100%;
+}
+
+.my-face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background-color: white;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 10px 10px rgb(49, 26, 4);
+}
+
+.my-face img {
+  width: 90%;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.pr-other_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 350px;
+  border-radius: 10%;
+  background-color: rgb(85, 45, 7);
+}
+
+.my-like {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.my-like h2 {
+  margin-top: 15px;
+  height: 60px;
+  width: 80%;
   text-shadow: 2px 2px rgb(247, 123, 0), 3px 3px rgb(122, 61, 0);
   background-color: rgba(255, 255, 255, 0.884);
   box-shadow: 5px 5px green;
