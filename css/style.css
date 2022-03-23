@@ -12,3 +12,17 @@ body {
   font-family: "Tourney", cursive;
   color: white;
 }
+
+@media (min-width: 360px) and (max-width: 1300px) {
+  .pr-title {
+    font-size: 25px;
+  }
+
+  .to-me_span {
+    font-size: 20px;
+  }
+
+  .to-me_span-own {
+    font-size: 20px;
+  }
+}

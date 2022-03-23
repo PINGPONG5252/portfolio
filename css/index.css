@@ -9,7 +9,17 @@ body {
   height: 550px;
   font-size: 60px;
   font-weight: 600;
-  background-color: rgb(22, 175, 42);
+  background: linear-gradient(
+    10deg,
+    rgb(7, 126, 23) 12.5%,
+    rgb(22, 175, 42) 12.5% 25%,
+    rgb(7, 126, 23) 25% 37.5%,
+    rgb(22, 175, 42) 37.5% 50%,
+    rgb(7, 126, 23) 50% 62.5%,
+    rgb(22, 175, 42) 62.5% 75%,
+    rgb(7, 126, 23) 75% 87.5%,
+    rgb(22, 175, 42) 87.5% 100%
+  );
 }
 
 .title div {
@@ -25,11 +35,18 @@ body {
     9px 9px 3px rgb(6, 46, 11);
   transition: 0.2s ease-in-out;
   background-color: rgb(248, 223, 153);
+  position: relative;
 }
 
 .title div:hover {
   text-shadow: -3px -3px 1px rgb(32, 252, 252), -5px -5px 1px rgb(141, 20, 255),
     -9px -9px 3px rgb(6, 46, 11);
+}
+
+.title i {
+  width: 20px;
+  height: 20px;
+  z-index: -2;
 }
 
 .main-box {
@@ -40,7 +57,7 @@ body {
   height: 135px;
   font-size: 30px;
   font-family: var(--japan);
-  background: linear-gradient(rgb(17, 124, 31), rgb(7, 51, 13));
+  background: linear-gradient(rgb(14, 105, 26), rgb(5, 37, 10));
 }
 
 @keyframes waku {
